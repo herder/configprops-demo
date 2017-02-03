@@ -1,7 +1,10 @@
 package com.example;
 
+import org.springframework.validation.annotation.Validated;
+
 import java.text.Normalizer;
 
+@Validated
 public class SlugServicePropertiesJava {
 
     private int slugSize = 70;
